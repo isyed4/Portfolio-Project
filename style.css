@@ -1,0 +1,18 @@
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: gray;
+}
+
+ul{
+    display: flex;
+}
+
+nav ul a{
+    list-style: none;
+    margin-right: 2.5rem;
+    text-decoration: none;
+
+}
