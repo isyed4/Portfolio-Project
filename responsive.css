@@ -1,0 +1,9 @@
+@media(max-width: 425px){
+    nav #toggle-button{
+        display: flex;
+    }
+
+    nav ul{
+        display: none;
+    }
+}
