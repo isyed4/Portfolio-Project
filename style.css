@@ -6,6 +6,13 @@ nav{
     background-color: gray;
 }
 
+nav #home{
+    margin-right: 14rem;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
 ul{
     display: flex;
 }
@@ -14,5 +21,6 @@ nav ul a{
     list-style: none;
     margin-right: 2.5rem;
     text-decoration: none;
+    color: white;
 
 }
