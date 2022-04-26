@@ -59,3 +59,26 @@ nav #toggle-button .bar {
   background-color: white;
   border-radius: 10px;
 }
+
+.name {
+  text-align: center;
+  background-color: rgb(92, 81, 81);
+  color: white;
+}
+
+.about {
+  background-color: rgb(55, 59, 59);
+  color: white;
+}
+
+.projects {
+  background-color: yellowgreen;
+}
+
+.contact {
+  background-color: rgb(121, 87, 81);
+}
+
+.footer {
+  background-color: tomato;
+}

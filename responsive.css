@@ -29,19 +29,6 @@
 }
 
 @media (max-width: 700px){
-    .container{
-        display: grid;
-        grid-template-rows: repeat(5, 1fr);
-        grid-template-columns: 1fr;
-        
-    }
-
-    .name{
-        text-align: center;
-        grid-row: 1 / 2;
-        background-color: rgb(92, 81, 81);
-        color: white;
-    }
-
+  
 
 }
