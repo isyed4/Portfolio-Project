@@ -1,11 +1,35 @@
-@media(max-width: 425px){
+@media(max-width: 700px){
     nav #toggle-button{
         display: flex;
     }
 
-    /* nav ul{
+    nav ul{
         display: none;
-    } */
+        flex-direction: column;
+        width: 100%;
+      
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    nav ul li{
+        text-align: center;
+    }
+
+    nav ul li a{
+        padding: .5rem 1rem;
+    }
+
+    nav ul.active{
+        display: flex;
+    }
+
+   
+
 
 
 }
