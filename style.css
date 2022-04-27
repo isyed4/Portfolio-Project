@@ -5,6 +5,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: white;
 }
 
 nav {
@@ -36,7 +37,8 @@ nav ul a {
 }
 
 nav ul li:hover {
-  background-color: #555;
+  background-color: rgb(148, 148, 148);
+  border-radius: 20px;
 }
 
 nav #home {
@@ -94,18 +96,28 @@ nav #toggle-button .bar {
 }
 
 .about {
-  background-color: rgb(55, 59, 59);
+  background-color: rgb(36, 37, 37);
+  opacity: 0.75;
   color: white;
+  grid-row: 5 / 7;
 }
 
 .projects {
-  background-color: yellowgreen;
+  background-color: rgb(36, 37, 37);
+  opacity: 0.75;
+  grid-row: 7 / 10;
+  color: white;
 }
 
 .contact {
-  background-color: rgb(121, 87, 81);
+  background-color: rgb(36, 37, 37);
+  opacity: 0.75;
+  grid-row: 10 / 13;
+  color: white;
 }
 
 .footer {
-  background-color: tomato;
+  background-color: rgb(36, 37, 37);
+  opacity: 0.75;
+  color: white;
 }
