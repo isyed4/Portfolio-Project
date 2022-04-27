@@ -11,7 +11,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: gray;
+  background-color: rgb(36, 37, 37);
+  opacity: 0.75;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
 }
 
 nav ul {
@@ -62,8 +66,31 @@ nav #toggle-button .bar {
 
 .name {
   text-align: center;
-  background-color: rgb(92, 81, 81);
   color: white;
+  grid-row: 1 / 5;
+  background-image: url(/images/street.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.name-box {
+  font-size: 3rem;
+  background-color: rgb(36, 37, 37);
+  opacity: 0.75;
+  border-radius: 1rem;
+}
+
+.occupation-box {
+  font-size: 1.3rem;
+  background-color: rgb(36, 37, 37);
+  opacity: 0.75;
+  border-radius: 1rem;
 }
 
 .about {
