@@ -69,7 +69,7 @@ nav #toggle-button .bar {
 .name {
   text-align: center;
   color: white;
-  grid-row: 1 / 5;
+  /* grid-row: 1 / 2; */
   background-image: url(/images/street.jpg);
   background-size: cover;
   display: flex;
@@ -101,19 +101,21 @@ nav #toggle-button .bar {
   background-color: rgb(36, 37, 37);
   opacity: 0.75;
   color: white;
-  grid-row: 5 / 7;
+  /* grid-row: 2 / 3; */
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 23px;
   text-align: center;
   display: flex;
   align-items: center;
+  
+  
 }
 
 .projects {
   background-color: slategray;
   opacity: 0.75;
-  grid-row: 7 / 9;
+  /* grid-row: 3 / 4; */
   color: white;
   text-align: center;
   display: flex;
@@ -231,6 +233,7 @@ nav #toggle-button .bar {
 
 .contact{
   background-color:rgb(36, 37, 37);
+  /* grid-row: 4 / 5; */
 }
 .form-wrapper{
   display: flex;
@@ -291,4 +294,25 @@ form button:hover{
   background-color: slategray;
   opacity: 0.75;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
+
+.social-icon{
+  color: rgb(54, 53, 53);
+  border-radius: 20px;
+}
+
+.social-icon:hover{
+  background-color: rgb(128, 131, 131);
+  color: white;
+
+}
+
+ion-icon{
+  width: 40px;
+  height: 30px;
+}
+
+
