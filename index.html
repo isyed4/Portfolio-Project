@@ -19,9 +19,9 @@
           <span class="bar"></span>
         </a>
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -32,7 +32,7 @@
         <div class="occupation-box">Front-End Developer</div>
       </section>
 
-      <section class="about">
+      <section id="about" class="about">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem debitis,
           repellat sunt possimus maxime praesentium consequatur fugiat
@@ -41,7 +41,7 @@
         </p>
       </section>
 
-      <section class="projects">
+      <section id="projects" class="projects">
         <div>Projects</div>
         <ul class="project-items">
           <div class="project1-wrapper">
@@ -79,34 +79,42 @@
         </ul>
       </section>
 
-      <section class="contact">
-       <div class="form-wrapper">
-        <form>
-          <h3>Contact</h3>
-          <input type="text" id="name" placeholder="Name" required>
-          <input type="email" id="email" placeholder="Email" required>
-          <textarea id="message" rows="4" placeholder="Write your message here"></textarea>
-          <button type="submit">Send</button>
-        </form>
-       </div>
+      <section id="contact" class="contact">
+        <div class="form-wrapper">
+          <form>
+            <h3>Contact</h3>
+            <input type="text" id="name" placeholder="Name" required />
+            <input type="email" id="email" placeholder="Email" required />
+            <textarea
+              id="message"
+              rows="4"
+              placeholder="Write your message here"
+            ></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
       </section>
 
       <section class="footer">
-        
-        <a class="social-icon" href="#" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-        <a class="social-icon" href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a class="social-icon" href="#" target="_blank"
+          ><ion-icon name="logo-github"></ion-icon
+        ></a>
+        <a class="social-icon" href="#" target="_blank"
+          ><ion-icon name="logo-linkedin"></ion-icon
+        ></a>
         <p>Imran.Syed.h3@gmail.com</p>
-        
       </section>
     </main>
 
-   
-   
-   
-   
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="main.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
