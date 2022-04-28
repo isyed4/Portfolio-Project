@@ -79,6 +79,7 @@ nav #toggle-button .bar {
   flex-direction: column;
   position: relative;
   z-index: 1;
+  flex-wrap: wrap;
 }
 
 .name-box {
@@ -228,16 +229,62 @@ nav #toggle-button .bar {
   opacity: 1;
 }
 
-.contact {
-  background-color: rgb(36, 37, 37);
-  opacity: 0.75;
-  color: white;
-  text-align: center;
+.contact{
+  background-color:rgb(36, 37, 37);
+}
+.form-wrapper{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  width: 100%;
+  height: 100%;
 
+}
+
+form{
+  background-color: rgb(145, 140, 140);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;  
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+}
+
+form h3{
+  color:white;
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form input, form textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+form button{
+  padding: 15px;
+  background-color: rgb(100, 97, 97);
+  color: white;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
+
+form button:hover{
+  /* text-decoration: underline; */
+  background-color: rgb(114, 113, 113)
 }
 
 .footer {
