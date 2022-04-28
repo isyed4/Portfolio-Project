@@ -70,7 +70,7 @@ nav #toggle-button .bar {
   text-align: center;
   color: white;
   /* grid-row: 1 / 2; */
-  background-image: url(/images/street.jpg);
+  background-image: url(images/street.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
