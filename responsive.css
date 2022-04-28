@@ -5,7 +5,7 @@
 
   nav ul {
     display: none;
-    flex-direction: column ;
+    flex-direction: column;
     width: 100%;
   }
 
@@ -24,8 +24,5 @@
   }
 }
 
-@media (max-width: 700px){
-
-
-
+@media (max-width: 700px) {
 }

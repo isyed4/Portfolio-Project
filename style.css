@@ -108,8 +108,6 @@ nav #toggle-button .bar {
   text-align: center;
   display: flex;
   align-items: center;
-  
-  
 }
 
 .projects {
@@ -231,38 +229,38 @@ nav #toggle-button .bar {
   opacity: 1;
 }
 
-.contact{
-  background-color:rgb(36, 37, 37);
+.contact {
+  background-color: rgb(36, 37, 37);
   /* grid-row: 4 / 5; */
 }
-.form-wrapper{
+.form-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 100%;
-
 }
 
-form{
+form {
   background-color: rgb(145, 140, 140);
   display: flex;
   flex-direction: column;
-  border-radius: 10px;  
+  border-radius: 10px;
   padding: 2vw 4vw;
   width: 90%;
   max-width: 600px;
 }
 
-form h3{
-  color:white;
+form h3 {
+  color: white;
   font-weight: 800;
   font-size: 25px;
   margin-bottom: 20px;
   text-align: center;
 }
 
-form input, form textarea{
+form input,
+form textarea {
   border: 0;
   margin: 10px 0;
   padding: 20px;
@@ -272,7 +270,7 @@ form input, form textarea{
   border-radius: 10px;
 }
 
-form button{
+form button {
   padding: 15px;
   background-color: rgb(100, 97, 97);
   color: white;
@@ -285,9 +283,9 @@ form button{
   border-radius: 30px;
 }
 
-form button:hover{
+form button:hover {
   /* text-decoration: underline; */
-  background-color: rgb(114, 113, 113)
+  background-color: rgb(114, 113, 113);
 }
 
 .footer {
@@ -299,20 +297,17 @@ form button:hover{
   justify-content: space-evenly;
 }
 
-.social-icon{
+.social-icon {
   color: rgb(54, 53, 53);
   border-radius: 20px;
 }
 
-.social-icon:hover{
+.social-icon:hover {
   background-color: rgb(128, 131, 131);
   color: white;
-
 }
 
-ion-icon{
+ion-icon {
   width: 40px;
   height: 30px;
 }
-
-
