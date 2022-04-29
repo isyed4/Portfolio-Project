@@ -111,6 +111,14 @@ nav #toggle-button .bar {
   flex-direction: column;
 }
 
+.skills ion-icon{
+  
+  width: 100px;
+  height: 80px;
+  
+
+}
+
 .projects {
   background-color: slategray;
   opacity: 0.75;
@@ -309,6 +317,6 @@ form button:hover {
 }
 
 ion-icon {
-  width: 40px;
-  height: 30px;
+  width: 50px;
+  height: 40px;
 }
