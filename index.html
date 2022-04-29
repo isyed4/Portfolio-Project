@@ -92,25 +92,25 @@
 
       <section id="contact" class="contact">
         <div class="form-wrapper">
-          <form onsubmit="sendEmail(); reset(); return false">
+          <form action="https://sheetdb.io/api/v1/vfvz48appfezc" method="post" id="sheetdb-form">
             <h3>Contact</h3>
             <input
               type="text"
-              name="name"
+              name="data[name]"
               id="name"
               placeholder="Name"
               required
             />
             <input
               type="email"
-              name="email"
+              name="data[email]"
               id="email"
               placeholder="Email"
               required
             />
             <textarea
               id="message"
-              name="message"
+              name="data[message]"
               rows="4"
               placeholder="Write your message here"
             ></textarea>
@@ -140,6 +140,5 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
   </body>
 </html>

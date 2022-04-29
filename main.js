@@ -2,18 +2,16 @@ $("#toggle-button").click(function () {
   $("nav ul").toggle("slow");
 });
 
-function sendEmail() {
-    Email.send({
-        Host : "smtp.yourisp.com",
-        Username : "username",
-        Password : "password",
-        To : 'imran.syed.h3@gmail.com',
-        From : $('#email').val,
-        Subject : "New Contact from Portfolio",
-        Body : "Name: " + $('#name').val
-                + "<br> Email: " + $('#email').val
-                + "<br> Message: " + $('#message').val
+
+var form = document.getElementById('sheetdb-form');
+form.addEventListener("submit", e => {
+    e.preventDefault();
+    fetch(form.action, {
+        method: 'POST',
+        body: new FormData(document.getElementById('sheetdb-form')),
     }).then(
-      message => alert("Message Sent! Will reach back to you shortly!") 
-    );
-}
+        response => response.json()
+    ).then(
+        // you can put any JS code here
+        alert('Info Sent! Will reply shortly')
+)})
