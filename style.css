@@ -318,6 +318,10 @@ ion-icon {
   height: 40px;
 }
 
+.project1-description{
+  font-size: 20px;
+}
+
 .project1-description:hover{
   text-decoration: underline;
 }
