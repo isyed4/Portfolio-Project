@@ -111,12 +111,9 @@ nav #toggle-button .bar {
   flex-direction: column;
 }
 
-.skills ion-icon{
-  
+.skills ion-icon {
   width: 100px;
   height: 80px;
-  
-
 }
 
 .projects {
@@ -319,4 +316,8 @@ form button:hover {
 ion-icon {
   width: 50px;
   height: 40px;
+}
+
+.project1-description:hover{
+  text-decoration: underline;
 }
