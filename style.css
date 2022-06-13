@@ -140,8 +140,8 @@ nav #toggle-button .bar {
 }
 
 .project1-wrapper {
-  width: 300px;
-  height: 251px;
+  width: 450px;
+  height: 350px;
   position: relative;
 }
 
@@ -159,7 +159,7 @@ nav #toggle-button .bar {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   border-radius: 1rem;
-  opacity: 0;
+  /* opacity: 0; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -170,13 +170,13 @@ nav #toggle-button .bar {
   text-decoration: none;
 }
 
-.image_overlay1:hover {
+/* .image_overlay1:hover {
   opacity: 1;
-}
+} */
 
 .project2-wrapper {
-  width: 300px;
-  height: 251px;
+  width: 450px;
+  height: 350px;
   position: relative;
 }
 
@@ -189,7 +189,7 @@ nav #toggle-button .bar {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   border-radius: 1rem;
-  opacity: 0;
+  /* opacity: 0; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -200,13 +200,13 @@ nav #toggle-button .bar {
   text-decoration: none;
 }
 
-.image_overlay2:hover {
+/* .image_overlay2:hover {
   opacity: 1;
-}
+} */
 
 .project3-wrapper {
-  width: 300px;
-  height: 251px;
+  width: 450px;
+  height: 350px;
   position: relative;
   margin-top: 10px;
 }
@@ -220,7 +220,7 @@ nav #toggle-button .bar {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   border-radius: 1rem;
-  opacity: 0;
+  /* opacity: 0; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -231,9 +231,9 @@ nav #toggle-button .bar {
   text-decoration: none;
 }
 
-.image_overlay3:hover {
+/* .image_overlay3:hover {
   opacity: 1;
-}
+} */
 
 .contact {
   background-color: rgb(36, 37, 37);
@@ -322,6 +322,33 @@ ion-icon {
   font-size: 20px;
 }
 
-.project1-description:hover{
+.project1-description p{
+  font-size: 2rem;
   text-decoration: underline;
 }
+
+.project1-description a {
+  color: aqua;
+}
+
+.project2-description{
+  font-size: 20px;
+}
+
+.project2-description p{
+  font-size: 2rem;
+  text-decoration: underline;
+
+}
+
+.project2-description a {
+  color: aqua;
+}
+
+.project3-description{
+  font-size: 20px;
+}
+
+/* .project1-description:hover{
+  text-decoration: underline;
+} */
