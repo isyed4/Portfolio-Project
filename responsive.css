@@ -1,4 +1,4 @@
-@media (max-width: 700px) {
+@media (max-width: 425px) {
   nav #toggle-button {
     display: flex;
   }
