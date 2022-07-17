@@ -331,11 +331,12 @@ ion-icon {
 }
 
 .project1-description a {
-  color: aqua;
+  color: rgb(17, 248, 248);
 }
 
 .project1-description p {
   color: aqua;
+  font-weight: bolder;
 }
 
 /* .project2-description{
