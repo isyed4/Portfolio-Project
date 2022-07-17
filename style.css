@@ -334,6 +334,10 @@ ion-icon {
   color: rgb(17, 248, 248);
 }
 
+.project1-description a:hover{
+  color: white;
+}
+
 .project1-description p {
   color: aqua;
   font-weight: bolder;
