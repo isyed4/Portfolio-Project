@@ -334,7 +334,11 @@ ion-icon {
   color: aqua;
 }
 
-.project2-description{
+.project1-description p {
+  color: aqua;
+}
+
+/* .project2-description{
   font-size: 20px;
 }
 
@@ -351,6 +355,17 @@ ion-icon {
 .project3-description{
   font-size: 20px;
 }
+
+.project3-description p{
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.project3-description a {
+  color: aqua;
+} */
+
+
 
 /* .project1-description:hover{
   text-decoration: underline;
