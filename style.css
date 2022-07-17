@@ -339,6 +339,10 @@ ion-icon {
   font-weight: bolder;
 }
 
+.social-icon-projects:hover {
+  color: white;
+}
+
 /* .project2-description{
   font-size: 20px;
 }
